@@ -5,10 +5,16 @@
 
 body {
 	background-color: #171923;
-	color: #EEE;
+	color: #EEE; 
 	font-family: 'Roboto', sans-serif;
 	margin: 0px;
 }
+	/*
+	border-radius: 50px;
+	background: #d5dfe5;
+	box-shadow:  20px 20px 60px #b5bec3,
+             -20px -20px 60px #f5ffff;
+	*/
 
 .content {
 	width: 100vw;
@@ -24,6 +30,7 @@ body {
 }
 .info > p {
 	text-align: justify;
+
 }
 
 img {
@@ -40,8 +47,8 @@ img {
 	justify-content: center;
 	height: 3.5rem;
 	width: 3.5rem;
-	background-color: #EEE;
-	color: #171923;
+	background-color: #F79E1B;
+	color: #FFF;
 	border-radius: 100%;
 	font-size: 1.5rem;
 	margin-right: 1.5rem;
@@ -50,9 +57,13 @@ img {
 	margin-right: 0;
   }
   .social-icons .social-icon:hover {
-	background-color: #F79E1B;
+	background-color: #C31331;
   }
 
   h1, h2, p {
 	  text-align: center;
+  }
+
+  .icon {
+	  color: #F79E1B;
   }
