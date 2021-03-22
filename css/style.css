@@ -36,15 +36,21 @@ h1, h2, p {
   text-align: center;
 }
 
-a {
-	background-color: crimson;
-	color: #fff;
-	width: 100px;
-	height: 50px;
-	padding: 10px;
-	cursor: pointer;
-	margin-left: 10px;
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #197278;
+  color: #e0e0e0;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
 }
-a:hover {
-	background-color: #f79e1b;
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover {
+  background-color: #c44536;
 }
