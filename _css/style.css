@@ -1,69 +1,50 @@
 * {
-	box-sizing: border-box;
-	text-decoration: none;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
-	background-color: #171923;
-	color: #EEE; 
-	font-family: 'Roboto', sans-serif;
-	margin: 0px;
+  background-color: #171923;
+  color: #eee;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
 }
-	/*
-	border-radius: 50px;
-	background: #d5dfe5;
-	box-shadow:  20px 20px 60px #b5bec3,
-             -20px -20px 60px #f5ffff;
-	*/
 
 .content {
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .info {
-	width: 400px;
+  width: 720px;
 }
 .info > p {
-	text-align: justify;
-
+  text-align: center;
 }
 
 img {
-
-	width: 180px;
-	height: 180px;
-	border-radius: 50%;
-	
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
 }
 
-.social-icons .social-icon {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	height: 3.5rem;
-	width: 3.5rem;
-	background-color: #F79E1B;
-	color: #FFF;
-	border-radius: 100%;
-	font-size: 1.5rem;
-	margin-right: 1.5rem;
-  }
-  .social-icons .social-icon:last-child {
-	margin-right: 0;
-  }
-  .social-icons .social-icon:hover {
-	background-color: #C31331;
-  }
+h1, h2, p {
+  text-align: center;
+}
 
-  h1, h2, p {
-	  text-align: center;
-  }
-
-  .icon {
-	  color: #F79E1B;
-  }
+a {
+	background-color: crimson;
+	color: #fff;
+	width: 100px;
+	height: 50px;
+	padding: 10px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+a:hover {
+	background-color: #f79e1b;
+}
